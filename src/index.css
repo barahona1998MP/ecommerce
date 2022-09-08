@@ -1,0 +1,77 @@
+/* ---- RESET ---- */
+:root {
+  --primary: #9C27B0;
+  --primarioOscuro: #89119D;
+  --secundario: #FFCE00;
+  --secundarioOscuro: rgb(233, 287, 2);
+  --blanco: #FFF;
+  --negro: #000;
+  --fuentePrincipal: 'Staatliches', cursive;
+  --color-red: #f85555;
+}
+/*Globales*/
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--blanco);
+  font-size: 1.6rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+p {
+  font-size: 1.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, h2, h3, h4, p, ul, button {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: var(--fuentePrincipal);
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+span {
+  font-family: var(--fuentePrincipal);
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+ul{
+  list-style: none;
+  padding-left: 0;
+}
+img {
+  max-width: 100%;
+}
+input{
+  outline: none;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
